@@ -7,5 +7,7 @@ public interface StudentService {
 	public void addScore(StudentBean score);
 	public StudentBean login(StudentBean student);
 	public StudentBean find(String id);
-	
+	public int getCount();
+	public StudentBean[] list();
+
 }

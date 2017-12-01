@@ -31,12 +31,14 @@ public class StudentBean {
 	public void setEng(int eng) {
 		this.eng = eng;
 	}
-	public int setMat(int math) {
-		return this.math;
+	public int getEng() {
+		return this.eng;
 	}
 	public void setMath(int math) {
 		this.math = math;
 	}
-	
-	
+	public int getMath() {
+		return this.math ;
+	}
+
 }
