@@ -1,6 +1,6 @@
 package com.school.web.bean;
 
-public class StudentBean {
+public class StudentBean {//ㅁㅁㅁ
 	private String id,pass,name;
 	private int kor,eng,math;
 	
