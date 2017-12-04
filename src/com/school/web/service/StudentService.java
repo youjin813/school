@@ -9,5 +9,7 @@ public interface StudentService {
 	public StudentBean find(String id);
 	public int getCount();
 	public StudentBean[] list();
+	public StudentBean findStudentById(String id);
+	public StudentBean[] findStudentByName(String name);
 
 }
