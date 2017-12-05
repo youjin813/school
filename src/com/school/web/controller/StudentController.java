@@ -1,7 +1,5 @@
 package com.school.web.controller;
 
-import java.lang.reflect.Member;
-//import java.util.Scanner;   스캐너 사용 안하니까 필요 없음
 import javax.swing.JOptionPane;
 import com.school.web.bean.StudentBean;
 import com.school.web.service.StudentService;
@@ -49,9 +47,10 @@ public class StudentController {
 					message = "검색하려는 이름이 없습니다.";
 				}else {
 					for(int i=0;i<students.length;i++) {
-						message = students[i].toString();
+						message += students[i].toString();
 					}
 				}
+				JOptionPane.showMessageDialog(null, message);
 				
 				break;
 			case "7" :

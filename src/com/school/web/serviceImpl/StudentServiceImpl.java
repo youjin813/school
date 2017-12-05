@@ -76,7 +76,7 @@ public class StudentServiceImpl implements StudentService{
 			matchCount++;
 			}
 		}
-		if(matchCount!=0) {}
+		if(matchCount!=0) {
 		students = new StudentBean[matchCount];
 		int j = 0;
 		for(int i=0;i<count;i++) {
@@ -87,6 +87,7 @@ public class StudentServiceImpl implements StudentService{
 				break;
 			}
 			}
+		}
 		}
 		return students;
 	}
